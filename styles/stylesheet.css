@@ -1,3 +1,12 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+
+div {
+	display: block;
+}
+
 #logo{
 	height: 233px;
 	margin-top: 89px;
@@ -6,4 +15,20 @@
 #googlelogo{
 	padding-top: 109px;
 	width: 272px;
+}
+
+#searchform{
+	width: 443px;
+	height: 38px;
+	border: 1px solid black;
+}
+
+#searchtext{
+	border: none;
+	padding: 0;
+	margin-top: 6px;
+	margin-left: -40px;
+	height: 26px;
+	width: 390px;
+	outline: none;
 }
